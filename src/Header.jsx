@@ -95,6 +95,7 @@ const Header = ({
   const secondaryMenu = secondaryMenuItems || [];
   const userMenu = authenticatedUser === null ? [] : userMenuItems || defaultUserMenu;
 
+  console.log("CUSTOM HEADER LOADED")
   const loggedOutItems = [
     {
       type: 'item',
